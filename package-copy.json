@@ -1,0 +1,49 @@
+{
+  "name": "@liqd-rn/app",
+  "version": "0.0.8-alpha.6",
+  "description": "App",
+  "author": "radixxko",
+  "license": "MIT",
+  "homepage": "https://webergency.com",
+  "main": "dist/app.js",
+  "types": "dist/app.d.ts",
+  "files": [ "dist/**/*", "liqd-rn-app.podspec", "react-native.config.js" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "version": "npm i && tsc && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liqd-rn/app.git"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "@react-navigation/bottom-tabs": "7.x",
+    "@react-navigation/drawer": "7.x",
+    "@react-navigation/native": "7.x",
+    "@react-navigation/native-stack": "7.x",
+    "react-native-gesture-handler": "2.x",
+    "react-native-reanimated": "3.x",
+    "react-native-safe-area-context": "4.x",
+    "react-native-screens": "4.x"
+  },
+  "devDependencies": {
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/drawer": "^7.1.1",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-reanimated": "^3.16.6",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.4.0",
+    "@tsconfig/react-native": "^3.0.5",
+    "@types/react": "^18.2.6",
+    "typescript": "^5.7.2"
+  }
+}
